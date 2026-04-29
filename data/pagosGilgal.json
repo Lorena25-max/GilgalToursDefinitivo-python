@@ -1,82 +1,82 @@
 [
      {
-          "id_pago":706.0,
-          "id_reserva":897,
+          "id_pago":47.0,
+          "id_reserva":842,
+          "fecha_pago":"2026-01-03",
+          "monto":425696.8061828056,
+          "metodo_pago":"Efectivo",
+          "estado_pago":"Pendiente"
+     },
+     {
+          "id_pago":908.0,
+          "id_reserva":441,
           "fecha_pago":null,
-          "monto":649156.9826226453,
+          "monto":726616.2444472071,
+          "metodo_pago":"Transferencia",
+          "estado_pago":"Pendiente"
+     },
+     {
+          "id_pago":971.0,
+          "id_reserva":157,
+          "fecha_pago":"2026-01-03",
+          "monto":-10000.0,
+          "metodo_pago":"Efectivo",
+          "estado_pago":"Aprobado"
+     },
+     {
+          "id_pago":null,
+          "id_reserva":410,
+          "fecha_pago":"2026-01-03",
+          "monto":472171.015167642,
+          "metodo_pago":"PSE",
+          "estado_pago":"Pendiente"
+     },
+     {
+          "id_pago":269.0,
+          "id_reserva":597,
+          "fecha_pago":null,
+          "monto":873298.9291913309,
+          "metodo_pago":"Efectivo",
+          "estado_pago":"Cancelado"
+     },
+     {
+          "id_pago":231.0,
+          "id_reserva":922,
+          "fecha_pago":null,
+          "monto":277633.784219317,
           "metodo_pago":"PSE",
           "estado_pago":"Aprobado"
      },
      {
-          "id_pago":43.0,
-          "id_reserva":775,
-          "fecha_pago":null,
-          "monto":392566.0533967671,
+          "id_pago":213.0,
+          "id_reserva":649,
+          "fecha_pago":"2026-01-03",
+          "monto":625034.9429044847,
           "metodo_pago":"Efectivo",
-          "estado_pago":"Aprobado"
-     },
-     {
-          "id_pago":null,
-          "id_reserva":364,
-          "fecha_pago":"2026-01-04",
-          "monto":348853.0866292809,
-          "metodo_pago":"Transferencia",
           "estado_pago":"Cancelado"
      },
      {
-          "id_pago":489.0,
-          "id_reserva":"YYY",
-          "fecha_pago":"2026-01-04",
-          "monto":345434.3568649059,
-          "metodo_pago":"Transferencia",
-          "estado_pago":"Aprobado"
-     },
-     {
-          "id_pago":775.0,
-          "id_reserva":63,
-          "fecha_pago":"2026-01-04",
-          "monto":738957.509582786,
-          "metodo_pago":"Transferencia",
-          "estado_pago":"Cancelado"
-     },
-     {
-          "id_pago":null,
-          "id_reserva":282,
-          "fecha_pago":"2026-01-04",
-          "monto":694398.0328824634,
-          "metodo_pago":"Transferencia",
+          "id_pago":344.0,
+          "id_reserva":109,
+          "fecha_pago":null,
+          "monto":366027.8556249288,
+          "metodo_pago":"Efectivo",
           "estado_pago":"Pendiente"
      },
      {
-          "id_pago":876.0,
-          "id_reserva":"XXX",
-          "fecha_pago":"2026-01-04",
-          "monto":611966.345331521,
-          "metodo_pago":"Efectivo",
-          "estado_pago":"Cancelado"
-     },
-     {
-          "id_pago":792.0,
-          "id_reserva":281,
+          "id_pago":907.0,
+          "id_reserva":952,
           "fecha_pago":null,
-          "monto":404548.8969133552,
-          "metodo_pago":"Efectivo",
+          "monto":786507.2296181223,
+          "metodo_pago":"PSE",
           "estado_pago":"Cancelado"
      },
      {
-          "id_pago":62.0,
-          "id_reserva":143,
+          "id_pago":608.0,
+          "id_reserva":27,
           "fecha_pago":null,
-          "monto":853241.1113604773,
-          "metodo_pago":"Transferencia",
-          "estado_pago":"Pendiente"
-     },
-     {
-          "id_pago":812.0,
-          "id_reserva":164,
-          "fecha_pago":"2026-01-04",
-          "monto":0.0,
-          "metodo_pago":"Efectivo",
-          "estado_pago":"Cancelado"
+          "monto":780266.3235975221,
+          "metodo_pago":"PSE",
+          "estado_pago":"Aprobado"
      }
 ]
