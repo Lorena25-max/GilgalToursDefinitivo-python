@@ -1,82 +1,82 @@
 [
      {
-          "id_destino":837.0,
-          "nombre_destino":"Aeropuerto",
-          "ciudad":"Medell\u00edn",
-          "descripcion":"Traslados desde y hacia el Aeropuerto JMC",
-          "precio_base":746880.0921816943,
-          "activo":null
-     },
-     {
-          "id_destino":945.0,
-          "nombre_destino":"Aeropuerto",
-          "ciudad":"Portugal",
-          "descripcion":"Visita grafitour, escaleras electricas",
-          "precio_base":814952.5267112001,
-          "activo":"No"
-     },
-     {
-          "id_destino":567.0,
-          "nombre_destino":"Guatap\u00e9",
-          "ciudad":"Medell\u00edn",
-          "descripcion":"Visita piedra del pe\u00f1ol,Pueblo de colores,Replica",
-          "precio_base":681364.0424264307,
-          "activo":null
-     },
-     {
-          "id_destino":787.0,
-          "nombre_destino":"Oriente",
+          "id_destino":182.0,
+          "nombre_destino":"Comuna 13",
           "ciudad":"Medell\u00edn",
           "descripcion":"Visita puente colgante,Centro historico",
-          "precio_base":166585.7738700435,
+          "precio_base":594551.4060912046,
+          "activo":null
+     },
+     {
+          "id_destino":48.0,
+          "nombre_destino":"Guatap\u00e9",
+          "ciudad":"Medell\u00edn",
+          "descripcion":"Traslados desde y hacia el Aeropuerto JMC",
+          "precio_base":205786.8995100386,
+          "activo":null
+     },
+     {
+          "id_destino":30.0,
+          "nombre_destino":"Guatap\u00e9",
+          "ciudad":"Medell\u00edn",
+          "descripcion":"Visita grafitour, escaleras electricas",
+          "precio_base":497818.2952753089,
+          "activo":null
+     },
+     {
+          "id_destino":672.0,
+          "nombre_destino":"Cartagena",
+          "ciudad":"Medell\u00edn",
+          "descripcion":"Traslados desde y hacia el Aeropuerto JMC",
+          "precio_base":245565.5669426098,
+          "activo":"Si"
+     },
+     {
+          "id_destino":758.0,
+          "nombre_destino":"Aeropuerto",
+          "ciudad":"Medell\u00edn",
+          "descripcion":"Visita puente colgante,Centro historico",
+          "precio_base":635898.6590489928,
+          "activo":null
+     },
+     {
+          "id_destino":432.0,
+          "nombre_destino":"Guatap\u00e9",
+          "ciudad":"Portugal",
+          "descripcion":"Visita el Retiro, la Ceja,San antonio de pereira, rionegro",
+          "precio_base":489401.4866108182,
           "activo":"No"
      },
      {
-          "id_destino":null,
-          "nombre_destino":"Oriente",
+          "id_destino":849.0,
+          "nombre_destino":"Aeropuerto",
           "ciudad":"Medell\u00edn",
-          "descripcion":"Traslados desde y hacia el Aeropuerto JMC",
-          "precio_base":734597.7153570296,
-          "activo":"Si"
-     },
-     {
-          "id_destino":969.0,
-          "nombre_destino":"Guatap\u00e9",
-          "ciudad":"Medell\u00edn",
-          "descripcion":"Visita piedra del pe\u00f1ol,Pueblo de colores,Replica",
-          "precio_base":543195.8203862208,
-          "activo":"Si"
-     },
-     {
-          "id_destino":174.0,
-          "nombre_destino":"Santa fe de Antioquia",
-          "ciudad":"Medell\u00edn",
-          "descripcion":"Visita grafitour, escaleras electricas",
-          "precio_base":605373.7073217297,
+          "descripcion":"Visita puente colgante,Centro historico",
+          "precio_base":882069.6208015351,
           "activo":null
      },
      {
           "id_destino":null,
-          "nombre_destino":"Guatap\u00e9",
-          "ciudad":"Medell\u00edn",
-          "descripcion":"Visita el Retiro, la Ceja,San antonio de pereira, rionegro",
-          "precio_base":840827.8877511948,
-          "activo":"Si"
-     },
-     {
-          "id_destino":261.0,
-          "nombre_destino":"Per\u00fa",
+          "nombre_destino":"Comuna 13",
           "ciudad":"Medell\u00edn",
           "descripcion":"Visita piedra del pe\u00f1ol,Pueblo de colores,Replica",
-          "precio_base":363634.6573927504,
+          "precio_base":343170.7726191935,
           "activo":"Si"
      },
      {
-          "id_destino":509.0,
-          "nombre_destino":"Oriente",
+          "id_destino":815.0,
+          "nombre_destino":"Guatap\u00e9",
           "ciudad":"Medell\u00edn",
-          "descripcion":"Visita grafitour, escaleras electricas",
-          "precio_base":775460.646711698,
+          "descripcion":"Traslados desde y hacia el Aeropuerto JMC",
+          "precio_base":256141.0160247752,
+          "activo":null
+     },
+     {
+          "id_destino":849.0,
+          "nombre_destino":"Per\u00fa",
+          "ciudad":"Medell\u00edn",
+          "descripcion":"Traslados desde y hacia el Aeropuerto JMC",
+          "precio_base":506601.3477768691,
           "activo":"Si"
      }
 ]

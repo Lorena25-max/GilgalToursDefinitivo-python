@@ -1,11 +1,11 @@
 id_destino,nombre_destino,ciudad,descripcion,precio_base,activo
-837.0,Aeropuerto,Medellín,Traslados desde y hacia el Aeropuerto JMC,746880.0921816943,
-945.0,Aeropuerto,Portugal,"Visita grafitour, escaleras electricas",814952.5267112001,No
-567.0,Guatapé,Medellín,"Visita piedra del peñol,Pueblo de colores,Replica",681364.0424264307,
-787.0,Oriente,Medellín,"Visita puente colgante,Centro historico",166585.77387004354,No
-,Oriente,Medellín,Traslados desde y hacia el Aeropuerto JMC,734597.7153570296,Si
-969.0,Guatapé,Medellín,"Visita piedra del peñol,Pueblo de colores,Replica",543195.8203862208,Si
-174.0,Santa fe de Antioquia,Medellín,"Visita grafitour, escaleras electricas",605373.7073217297,
-,Guatapé,Medellín,"Visita el Retiro, la Ceja,San antonio de pereira, rionegro",840827.8877511948,Si
-261.0,Perú,Medellín,"Visita piedra del peñol,Pueblo de colores,Replica",363634.65739275044,Si
-509.0,Oriente,Medellín,"Visita grafitour, escaleras electricas",775460.646711698,Si
+182.0,Comuna 13,Medellín,"Visita puente colgante,Centro historico",594551.4060912046,
+48.0,Guatapé,Medellín,Traslados desde y hacia el Aeropuerto JMC,205786.8995100386,
+30.0,Guatapé,Medellín,"Visita grafitour, escaleras electricas",497818.2952753089,
+672.0,Cartagena,Medellín,Traslados desde y hacia el Aeropuerto JMC,245565.56694260985,Si
+758.0,Aeropuerto,Medellín,"Visita puente colgante,Centro historico",635898.6590489928,
+432.0,Guatapé,Portugal,"Visita el Retiro, la Ceja,San antonio de pereira, rionegro",489401.4866108182,No
+849.0,Aeropuerto,Medellín,"Visita puente colgante,Centro historico",882069.6208015351,
+,Comuna 13,Medellín,"Visita piedra del peñol,Pueblo de colores,Replica",343170.7726191935,Si
+815.0,Guatapé,Medellín,Traslados desde y hacia el Aeropuerto JMC,256141.01602477522,
+849.0,Perú,Medellín,Traslados desde y hacia el Aeropuerto JMC,506601.34777686914,Si
