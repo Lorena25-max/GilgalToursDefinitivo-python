@@ -37,7 +37,7 @@ def simular_pagos_gilgal(numeroPagos):
         if(probabilidadError<0.2):
             pago["id_pago"]=None
         elif(probabilidadError<0.4):
-            pago["id_reserva"]=random.choice(["YYY","XXX"])
+            pago["id_reserva"]=random.choice(["1234","567"])
         elif(probabilidadError<0.5):
             pago["monto"]=random.choice([0,-10000,None])
         elif(probabilidadError<0.8):
