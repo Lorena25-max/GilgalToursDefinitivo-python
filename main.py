@@ -29,7 +29,7 @@ crear_csv(clientes_ordenados,"data/clientesGilgal.csv") """
 
 #------------------------------------------------------------
 #Destinos Gilgal
-import pandas as pd
+""" import pandas as pd
 from utils.destinosGilgalSimulador import simular_destinos_gilgal
 
 from notebook.generador import crear_json,crear_csv
@@ -42,7 +42,7 @@ destinos_ordenados=pd.DataFrame(destinosGilgalSimulados)
 
 #Convierto el dataframe en csv y en json
 crear_json(destinos_ordenados,"data/destinosGilgal.json")
-crear_csv(destinos_ordenados,"data/destinosGilgal.csv")
+crear_csv(destinos_ordenados,"data/destinosGilgal.csv") """
 
 #-------------------------------------------------------------
 #Pagos Gilgal
@@ -114,7 +114,7 @@ print(clientesGilgalSimuladosLimpios)  """
 #---------------------------------------------------
 #Ensayo limpieza destinos
 
-import pandas as pd
+""" import pandas as pd
 
 from utils.destinosGilgalSimulador import simular_destinos_gilgal
 
@@ -125,7 +125,7 @@ destinos_ordenados=pd.DataFrame(destinosGilgalSimulados)
 
 destinosGilgalSimuladosLimpios=limpiar_datos_destino(destinos_ordenados)
 print(destinosGilgalSimuladosLimpios)
-
+ """
 
 #--------------------------------------------------
 #Ensayo limpieza pagos
@@ -143,3 +143,160 @@ pagos_ordenados = pd.DataFrame(pagosGilgalSimulados)
 pagosGilgalSimuladosLimpios = limpiar_datos_pago(pagos_ordenados)
 
 print(pagosGilgalSimuladosLimpios) """
+
+#Transformación Clientes
+import pandas as pd
+
+# IMPORTAR FUNCIONES
+from notebook.consumoClientes import consumir_api_clientes
+from notebook.limpiezaClientes import limpiar_datos_cliente
+from notebook.transformacionClientes import transformar_clientes
+
+
+# 1. CONSUMIR DATOS DESDE LA API
+
+clientes = consumir_api_clientes()
+# print(clientes)
+
+# 2. CONVERTIR LOS DATOS A DATAFRAME
+
+dataFrameClientes = pd.DataFrame(clientes)
+# print(dataFrameClientes)
+
+
+# 3. LIMPIAR LOS DATOS
+
+dataFrameClientesLimpio = limpiar_datos_cliente(dataFrameClientes)
+
+# print(dataFrameClientesLimpio)
+
+
+# 4. TRANSFORMAR LOS DATOS
+
+resultadoTransformacion = transformar_clientes(dataFrameClientesLimpio)
+
+print(resultadoTransformacion)
+
+
+# 5. MOSTRAR CADA AGRUPACIÓN
+
+print("\n--- CLIENTES POR FECHA ---")
+print(resultadoTransformacion["clientesPorFecha"])
+
+print("\n--- CLIENTES CON DOCUMENTO ALTO ---")
+print(resultadoTransformacion["clientesDocumentoAlto"])
+
+print("\n--- PROMEDIO DOCUMENTO POR NOMBRE ---")
+print(resultadoTransformacion["promedioDocumentoNombre"])
+
+print("\n--- CLIENTES GMAIL POR APELLIDO ---")
+print(resultadoTransformacion["clientesGmailApellido"])
+
+print("\n--- CLIENTES POR NOMBRE ---")
+print(resultadoTransformacion["clientesPorNombre"])
+
+#Transformación Destinos
+import pandas as pd
+
+# IMPORTAR FUNCIONES
+from notebook.consumoDestinos import consumir_api_destinos
+from notebook.limpiezaDestinos import limpiar_datos_destino
+from notebook.transformacionDestinos import transformar_datos
+
+
+
+# 1. CONSUMIR DATOS DESDE LA API
+
+destinos = consumir_api_destinos()
+
+# print(destinos)
+
+
+# 2. CONVERTIR LOS DATOS A DATAFRAME
+
+dataFrameDestinos = pd.DataFrame(destinos)
+
+# print(dataFrameDestinos)
+
+
+# 3. LIMPIAR LOS DATOS
+
+dataFrameDestinosLimpio = limpiar_datos_destino(dataFrameDestinos)
+
+# print(dataFrameDestinosLimpio)
+
+
+# 4. TRANSFORMAR LOS DATOS
+
+resultadoTransformacion = transformar_datos(dataFrameDestinosLimpio)
+
+print(resultadoTransformacion)
+
+
+# 5. MOSTRAR CADA AGRUPACIÓN
+
+print("\n--- DESTINOS ACTIVOS POR CIUDAD ---")
+print(resultadoTransformacion["destinosActivosPorCiudad"])
+
+print("\n--- PROMEDIO PRECIO POR DESTINO ---")
+print(resultadoTransformacion["promedioPrecioDestino"])
+
+print("\n--- DESTINOS ECONÓMICOS POR CIUDAD ---")
+print(resultadoTransformacion["destinosEconomicosCiudad"])
+
+print("\n--- DESTINOS INACTIVOS POR CIUDAD ---")
+print(resultadoTransformacion["destinosInactivosCiudad"])
+
+print("\n--- TOTAL PRECIOS POR CIUDAD ---")
+print(resultadoTransformacion["totalPreciosCiudad"])
+
+#Transformación Pagos
+import pandas as pd
+
+# IMPORTAR FUNCIONES
+from notebook.consumoPagos import consumir_api_pagos
+from notebook.limpiezaPagos import limpiar_datos_pago
+from notebook.transformacionPagos import transformar_pagos
+
+
+# 1. CONSUMIR DATOS DESDE LA API
+
+pagos = consumir_api_pagos()
+# print(pagos)
+
+
+# 2. CONVERTIR LOS DATOS A DATAFRAME
+
+dataFramePagos = pd.DataFrame(pagos)
+# print(dataFramePagos)
+
+
+# 3. LIMPIAR LOS DATOS
+
+dataFramePagosLimpio = limpiar_datos_pago(dataFramePagos)
+# print(dataFramePagosLimpio)
+
+
+# 4. TRANSFORMAR LOS DATOS
+
+resultadoTransformacion = transformar_pagos(dataFramePagosLimpio)
+
+print(resultadoTransformacion)
+
+
+# 5. MOSTRAR CADA AGRUPACIÓN
+
+print("\n--- PAGOS APROBADOS POR FECHA ---")
+print(resultadoTransformacion["pagosAprobadosFecha"])
+
+print("\n--- MONTO POR MÉTODO DE PAGO ---")
+print(resultadoTransformacion["montoPorMetodoPago"])
+
+print("\n--- PAGOS PENDIENTES POR MÉTODO ---")
+print(resultadoTransformacion["pagosPendientesMetodo"])
+
+print("\n--- PAGOS RECHAZADOS POR FECHA ---")
+print(resultadoTransformacion["pagosRechazadosFecha"])
+
+print("\n--- PROMEDIO MONTO POR MÉTODO ---")
+print(resultadoTransformacion["promedioMontoMetodo"])
